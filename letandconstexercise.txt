@@ -1,0 +1,14 @@
+Q:  Write an es2015 version of pi:
+A:  const pi = 3.14
+
+Q:  What is the difference between var and let?
+A:  let has block scope, whereas var has function scope. let cannot be redeclared. var gets hoisted.
+
+Q:  What is the difference between var and const?
+A:  const is a constant and cannot be reassigned. (Though it can be mutated; const arrays can have values appended or transformed). It also can't be redeclared, has block scope, and is not hoisted.
+
+Q:  What is the difference between let and const?
+A:  while both are block scoped, const is best used when the variable shouldn't be changed.  let can be reassigned, whereas const cannot.
+
+Q:  What is hoisting?
+A:  hoisting takes place when the compiler first looks at the file; it identifies certain elements (declared variables and functions) prior to reading the rest of the document.  Hoisting variables can allow them to be accessed prior to value initialization, resulting in their value returning as undefined.
